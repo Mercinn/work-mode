@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Work Mode</title>
+  <style>
+    body {
+      width: 250px;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #aeafb0;
+    }
+    h3 {
+      background-color: #B8403F;
+      color: #fff;
+      margin: 0;
+      padding: 10px;
+      text-align: center;
+    }
+    .content {
+      padding: 10px;
+    }
+    .tab {
+      display: flex;
+      justify-content: space-around;
+      background-color: #B8403F;
+    }
+    .tab button {
+      background: none;
+      border: none;
+      color: white;
+      padding: 10px;
+      cursor: pointer;
+    }
+    .tab button.active {
+      background-color: #781C3A;
+    }
+    .tabcontent {
+      display: none;
+    }
+    .tabcontent.active {
+      display: block;
+    }
+    input, button {
+      width: 100%;
+      margin-top: 5px;
+    }
+    #status {
+      margin-top: 10px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+    .remove-btn {
+      background: none;
+      border: none;
+      color: #007BFF;
+      cursor: pointer;
+    }
+    .remove-btn:hover {
+      color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h3>Work Mode</h3>
+  <div class="tab">
+    <button id="toggleTab" class="active">Home</button>
+    <button id="optionsTab">Options</button>
+  </div>
+  <div class="content">
+    <div id="homeContent" class="tabcontent active">
+      <button id="toggleButton">Activate</button>
+      <p id="status">Inactive</p>
+    </div>
+    <div id="optionsContent" class="tabcontent">
+      <input type="text" id="website" placeholder="Enter website URL">
+      <button id="addButton">Add</button>
+      <ul id="blacklist"></ul>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
