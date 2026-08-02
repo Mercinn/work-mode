@@ -3,13 +3,13 @@
 Work Mode is a Chrome extension that helps you block distracting websites at the press of a button. 
 Stay on task, minimize procrastination, and boost productivity with a simple, customizable blacklist.
 
-## ⭐ Features
+## Features
 - One-Click Activation – Instantly enable or disable Work Mode.
 - Custom Blacklist – Add any websites you want to block.
 - Persistent Settings – Your blocked sites remain saved even after restarting the browser.
 - Simple UI – Easy-to-use interface with a tabbed layout.
 
-## 📌 How to Install
+## How to Install
 
 Download or clone this repository:
 
@@ -23,7 +23,7 @@ Click "Load Unpacked" and select the work-mode project folder.
 
 The extension is now installed!
 
-## 🔧 How to Use
+## How to Use
 
 Click the Work Mode icon in your browser toolbar.
 
@@ -33,6 +33,6 @@ Navigate back to the 'Home' tab and press the 'Activate' button to activate the 
 
 Deactivate anytime by pressing the 'Deactivate' button.
 
-## 📜 License
+## License
 
-This project is licensed under the **MIT License**.
+*This project is licensed under the **MIT License**.*
